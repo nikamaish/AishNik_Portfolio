@@ -43,7 +43,7 @@ const Navbar = () => {
             <li
               key={link.id}
               onClick={() => handleScroll(link.id)}
-              className="relative cursor-pointer hover:text-white transition"
+              className="relative cursor-pointer hover:text-accent transition"
             >
               {link.label}
               <motion.span
@@ -73,7 +73,7 @@ const Navbar = () => {
             <li
               key={link.id}
               onClick={() => handleScroll(link.id)}
-              className="cursor-pointer hover:text-primary transition"
+              className="cursor-pointer hover:text-accent transition"
             >
               {link.label}
             </li>

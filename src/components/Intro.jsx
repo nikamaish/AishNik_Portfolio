@@ -1,0 +1,77 @@
+import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
+
+const Intro = () => {
+    return (
+        <section className="min-h-screen flex flex-col items-center justify-center text-center px-6">
+            {/* NAME */}
+            <motion.h1
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+                className="text-5xl md:text-7xl font-bold mb-4"
+            >
+                Hi, I’m{" "}
+                <span className="animated-name">Aishwarya Nikam</span>
+            </motion.h1>
+
+            {/* TITLE */}
+            <motion.h2
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1.2 }}
+                className="text-2xl md:text-3xl text-gray-300 mb-6"
+            >
+                Full Stack Developer
+            </motion.h2>
+
+            {/* BUTTON */}
+            <motion.a
+                href="/resume.pdf" // replace with actual resume path or link
+                download
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                className="glow-btn inline-block mb-8"
+            >
+                Download Resume
+            </motion.a>
+
+            {/* SOCIAL ICONS */}
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1.4, duration: 1 }}
+                className="flex space-x-6 text-2xl"
+            >
+
+                <a
+                    href="https://linkedin.com/in/yourlinkedin"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-all duration-300"
+                >
+                    <FaLinkedin />
+                </a>
+                <a
+                    href="https://github.com/yourgithub"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-all duration-300"
+                >
+                    <FaGithub />
+                </a>
+
+                <a
+                    href="https://twitter.com/yourtwitter"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-all duration-300"
+                >
+                    <FaMedium />
+                </a>
+            </motion.div>
+        </section>
+    );
+};
+
+export default Intro;
