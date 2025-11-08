@@ -45,7 +45,7 @@ const Intro = () => {
             >
 
                 <a
-                    href="https://linkedin.com/in/yourlinkedin"
+                    href="www.linkedin.com/in/𝐀𝐢𝐬𝐡𝐰𝐚𝐫𝐲𝐚-𝐍𝐢𝐤𝐚𝐦-8175221b5"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-all duration-300"
@@ -53,7 +53,7 @@ const Intro = () => {
                     <FaLinkedin />
                 </a>
                 <a
-                    href="https://github.com/yourgithub"
+                    href="https://github.com/nikamaish"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-all duration-300"
@@ -62,7 +62,7 @@ const Intro = () => {
                 </a>
 
                 <a
-                    href="https://twitter.com/yourtwitter"
+                    href="https://medium.com/@aishTechie"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-all duration-300"
