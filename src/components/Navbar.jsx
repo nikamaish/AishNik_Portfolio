@@ -36,7 +36,7 @@ const Navbar = () => {
                     onClick={() => handleScroll("home")}
                     whileHover={{ scale: 1.05 }}
                 >
-                    Aishwarya
+                    By Aish
                 </motion.h1>
 
                 <ul className="hidden md:flex space-x-8 text-gray-300 font-medium">
