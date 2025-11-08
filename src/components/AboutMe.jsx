@@ -3,10 +3,8 @@ import Aish from '../assets/Aish.jpg';
 
 const AboutMe = () => {
     return (
-        <section
-            id="about"
-            className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-12 px-8 py-20"
-        >
+        <section id="about" className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-12 px-8 pt-10 pb-20">
+
             <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}

@@ -3,8 +3,7 @@ import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 
 const Intro = () => {
     return (
-        <section className="min-h-screen flex flex-col items-center justify-center text-center px-6">
-            {/* NAME */}
+        <section className="min-h-screen flex flex-col justify-center items-center pb-10">
             <motion.h1
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -15,7 +14,6 @@ const Intro = () => {
                 <span className="animated-name">Aishwarya Nikam</span>
             </motion.h1>
 
-            {/* TITLE */}
             <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -25,9 +23,8 @@ const Intro = () => {
                 Full Stack Developer
             </motion.h2>
 
-            {/* BUTTON */}
             <motion.a
-                href="/resume.pdf" // replace with actual resume path or link
+                href="/resume.pdf" 
                 download
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -36,7 +33,6 @@ const Intro = () => {
                 Download Resume
             </motion.a>
 
-            {/* SOCIAL ICONS */}
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
