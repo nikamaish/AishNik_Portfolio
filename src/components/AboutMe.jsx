@@ -11,7 +11,7 @@ const AboutMe = () => {
                 initial={{ opacity: 0, x: -80 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1 }}
-                className="relative w-72 h-72 md:w-[400px] md:h-[400px] rounded-full overflow-hidden shadow-[0_0_30px_#9333ea]"
+                className="relative w-72 h-72 md:w-[400px] md:h-[400px] rounded-full overflow-hidden "
             >
                 <img
                     src={Aish}
@@ -32,37 +32,34 @@ const AboutMe = () => {
                 </h2>
 
                 <p className="text-gray-300 mb-4">
-                    A passionate{" "}
-                    <span className="text-[#06b6d4] font-semibold">Full Stack Developer</span>{" "}
-                    skilled in the{" "}
-                    <span className="text-[#9333ea] font-semibold">MERN</span> and{" "}
-                    <span className="text-[#9333ea] font-semibold">Java</span> stacks, currently
-                    working as an{" "}
-                    <span className="text-[#06b6d4] font-semibold">Associate Software Engineer</span>{" "}
-                    at <span className="text-[#9333ea] font-semibold">Tech Mahindra</span>.
-                </p>
+  A passionate{" "}
+  <span className="text-[#06b6d4] font-semibold">Full Stack Developer</span>{" "}
+  skilled in the{" "}
+  <span className="text-[#06b6d4] font-semibold">MERN</span> and{" "}
+  <span className="text-[#06b6d4] font-semibold">Java</span> stacks, currently
+  working as an{" "}
+  <span className="text-[#e63946] font-semibold">Associate Software Engineer</span>{" "}
+  at <span className="text-[#e63946] font-semibold">Tech Mahindra</span>.
+</p>
 
-                <p className="text-gray-300 mb-4">
-                    I graduated with a degree in{" "}
-                    <span className="text-[#06b6d4] font-semibold">
-                        Information Technology
-                    </span>{" "}
-                    from{" "}
-                    <span className="text-[#9333ea] font-semibold">
-                        P.E.S Modern College of Engineering, Pune
-                    </span>
-                    . I love exploring new technologies, building automation tools, and solving
-                    real-world problems through code.
-                </p>
+<p className="text-gray-300 mb-4">
+  I graduated with a degree in{" "}
+  <span className="text-[#f59e0b] font-semibold">Information Technology</span>{" "}
+  from{" "}
+  <span className="text-[#f59e0b] font-semibold">
+    P.E.S Modern College of Engineering, Pune
+  </span>
+  . I love exploring new technologies, building automation tools, and solving
+  real-world problems through code.
+</p>
 
-                <p className="text-gray-300 mb-4">
-                    Outside of work, I’m a{" "}
-                    <span className="text-[#06b6d4] font-semibold">
-                        technophile and gamer
-                    </span>{" "}
-                    who enjoys blending creativity with logic — whether it’s through code,
-                    design, or gameplay.
-                </p>
+<p className="text-gray-300 mb-4">
+  Outside of work, I’m a{" "}
+  <span className="text-[#06b6d4] font-semibold">Technophile and Gamer</span>{" "}
+  who enjoys blending creativity with logic — whether it’s through code,
+  design, or gameplay.
+</p>
+
 
                 {/* <motion.a
           href="#projects"
