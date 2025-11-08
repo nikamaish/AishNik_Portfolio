@@ -3,11 +3,10 @@ import Aish from "../assets/Aish.jpg";
 
 const AboutMe = () => {
   return (
-    <section
-      id="about"
-      className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-20 px-10 pt-10 pb-20 bg-[#0a0a0f]"
-    >
-      {/* LEFT SIDE – Bigger Image */}
+<section
+  id="about"
+  className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-20 px-10 pt-10 pb-20 bg-[#0d0d15]/70 -mt-16"
+>
       <motion.div
         initial={{ opacity: 0, x: -80 }}
         animate={{ opacity: 1, x: 0 }}
@@ -17,12 +16,11 @@ const AboutMe = () => {
         <img
           src={Aish}
           alt="Aishwarya Nikam"
-          className="w-full h-full object-cover rounded-full border-4 border-[#9333ea]"
+          className="w-full h-full object-cover rounded-full border-4 border-[#06b6d4]"
         />
         {/* <div className="absolute inset-0 bg-gradient-to-r from-[#9333ea]/20 to-[#06b6d4]/20 animate-pulse"></div> */}
       </motion.div>
 
-      {/* RIGHT SIDE – Text */}
       <motion.div
         initial={{ opacity: 0, x: 80 }}
         animate={{ opacity: 1, x: 0 }}
