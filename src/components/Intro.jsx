@@ -8,7 +8,7 @@ const Intro = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-                className="text-5xl md:text-7xl font-bold mb-4"
+                className="text-5xl md:text-7xl font-bold mt-36 mb-10"
             >
                 Hi, I’m{" "}
                 <span className="animated-name">Aishwarya Nikam</span>
@@ -18,7 +18,7 @@ const Intro = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.2 }}
-                className="text-2xl md:text-3xl text-gray-300 mb-6"
+                className="text-2xl md:text-3xl text-gray-300 mb-10"
             >
                 Full Stack Developer
             </motion.h2>
@@ -28,7 +28,7 @@ const Intro = () => {
                 download
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className="glow-btn inline-block mb-8"
+                className="glow-btn inline-block mb-10"
             >
                 Download Resume
             </motion.a>
@@ -37,7 +37,7 @@ const Intro = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.4, duration: 1 }}
-                className="flex space-x-6 text-2xl"
+                className="flex space-x-10 text-2xl "
             >
 
                 <a
