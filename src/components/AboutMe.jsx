@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Aish from '../assets/Aish.jpg';
 
 const AboutMe = () => {
     return (
@@ -13,11 +14,11 @@ const AboutMe = () => {
                 className="relative w-60 h-60 md:w-80 md:h-80 rounded-full overflow-hidden shadow-[0_0_40px_#06b6d4]"
             >
                 <img
-                    //   src={profilePic}
+                    src={Aish}
                     alt="Aishwarya Nikam"
                     className="w-full h-full object-cover rounded-full border-4 border-primary"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-accent/30 animate-pulse"></div>
+                {/* <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-accent/30 animate-pulse"></div> */}
             </motion.div>
 
             <motion.div
