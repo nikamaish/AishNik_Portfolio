@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 // import Certifications from "./components/Certifications";
 import GitHubStats from "./components/GitHubStats";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       <Navbar />
       <Intro/>
       <AboutMe/>
+      <Experience/>
+      <GitHubStats/>
       <Contact/>
       {/* <Certifications/> */}
-      <GitHubStats/>
     </div>
   );
 }
