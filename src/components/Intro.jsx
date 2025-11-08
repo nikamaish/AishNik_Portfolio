@@ -8,7 +8,7 @@ const Intro = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold 
+                className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold 
              mt-32 mb-10 
              text-center md:text-left 
              px-4 sm:px-6">
@@ -20,13 +20,13 @@ className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.2 }}
-                className="text-2xl md:text-3xl text-gray-300 mb-10"
+                className="text-3xl md:text-4xl text-gray-300 mb-10"
             >
                 Full Stack Developer
             </motion.h2>
 
             <motion.a
-                href="/resume.pdf" 
+                href="/resume.pdf"
                 download
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -39,7 +39,7 @@ className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.8, duration: 1 }}
-                className="flex space-x-10 text-2xl "
+                className="flex space-x-10 text-4xl "
             >
 
                 <a

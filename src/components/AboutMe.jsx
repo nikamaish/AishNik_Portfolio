@@ -16,7 +16,7 @@ const AboutMe = () => {
                 <img
                     src={Aish}
                     alt="Aishwarya Nikam"
-                    className="w-full h-full object-cover rounded-full border-4 border-[#9333ea]"
+                    className="w-full h-full object-cover rounded-full border-4 border-[#06b6d4]"
                 />
                 {/* <div className="absolute inset-0 bg-gradient-to-r from-[#9333ea]/20 to-[#06b6d4]/20 animate-pulse"></div> */}
             </motion.div>
