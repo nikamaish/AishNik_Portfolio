@@ -8,8 +8,10 @@ const Intro = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-                className="text-5xl md:text-7xl font-bold mt-36 mb-10"
-            >
+className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold 
+             mt-32 mb-10 
+             text-center md:text-left 
+             px-4 sm:px-6">
                 Hi, I’m{" "}
                 <span className="animated-name">Aishwarya Nikam</span>
             </motion.h1>
@@ -36,7 +38,7 @@ const Intro = () => {
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 1.4, duration: 1 }}
+                transition={{ delay: 0.8, duration: 1 }}
                 className="flex space-x-10 text-2xl "
             >
 

@@ -32,11 +32,11 @@ const Navbar = () => {
         >
             <div className="max-w-7xl mx-auto px-6 flex justify-between items-center h-16">
                 <motion.h1
-                    className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent cursor-pointer"
+                    className="text-2xl font-bold text-white cursor-pointer"
                     onClick={() => handleScroll("home")}
                     whileHover={{ scale: 1.05 }}
                 >
-                    By Aish ❤
+                    By Aish 💖
                 </motion.h1>
 
                 <ul className="hidden md:flex space-x-8 text-gray-300 font-medium">
