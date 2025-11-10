@@ -31,14 +31,14 @@ const skillsData = {
     { name: "VS Code", icon: "src/assets/skills/vscode.svg" },
     { name: "Postman", icon: "src/assets/skills/postman.svg" },
     { name: "Docker", icon: "src/assets/skills/docker.svg" },
-    { name: "MongoDB Atlas", icon: "src/assets/skills/atlas.svg" },
-    { name: "MongoDB Compass", icon: "src/assets/skills/compass.svg" },
+    { name: "MongoDB Atlas", icon: "src/assets/skills/mongodb-atlas.svg" },
+    { name: "MongoDB Compass", icon: "src/assets/skills/mongodb-atlas.svg" },
   ],
   platforms: [
     { name: "Firebase", icon: "src/assets/skills/firebase.svg" },
     { name: "Vercel", icon: "src/assets/skills/vercel.svg" },
-    { name: "Render", icon: "src/assets/skills/render.svg" },
-    { name: "Flowise", icon: "src/assets/skills/flowise.svg" },
+    { name: "Render", icon: "src/assets/skills/render.jpg" },
+    { name: "Flowise", icon: "src/assets/skills/flowise.jpg" },
   ],
 };
 
