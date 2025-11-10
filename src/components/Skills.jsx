@@ -55,7 +55,7 @@ const Skills = () => {
   const [activeCategory, setActiveCategory] = useState("programming");
 
   return (
-    <section id="skills" className="min-h-screen bg-[#050510] text-white px-6 py-20">
+    <section id="skills" className="min-h-screen bg-[#0d0d15]/70 text-white px-6 py-20">
       <h2 className="text-5xl font-bold text-center mb-12 bg-gradient-to-r from-[#9333ea] to-[#06b6d4] bg-clip-text text-transparent">
         Technical Skills
       </h2>

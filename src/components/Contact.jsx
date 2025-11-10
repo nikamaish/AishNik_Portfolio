@@ -30,41 +30,38 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-8 text-gray-300">
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <FaEnvelope className="text-[#06b6d4] text-2xl" />
+              <FaEnvelope className="text-white text-2xl " />
               <a
                 href="mailto:aishwaryanikam13@gmail.com"
-                className="hover:text-[#9333ea] transition-all"
               >
                 aishkiaish14@gmail.com
               </a>
             </div>
 
             <div className="flex items-center gap-3">
-              <FaLinkedin className="text-[#06b6d4] text-2xl" />
+              <FaLinkedin className="text-white text-2xl" />
               <a
                 href="https://www.linkedin.com/in/𝐀𝐢𝐬𝐡𝐰𝐚𝐫𝐲𝐚-𝐍𝐢𝐤𝐚𝐦-8175221b5"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-[#9333ea] transition-all"
               >
                 LinkedIn Profile
               </a>
             </div>
 
             <div className="flex items-center gap-3">
-              <FaGithub className="text-[#06b6d4] text-2xl" />
+              <FaGithub className="text-white text-2xl" />
               <a
                 href="https://github.com/nikamaish"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-[#9333ea] transition-all"
               >
                 GitHub Profile
               </a>
             </div>
 
             <div className="flex items-center gap-3">
-              <FaMapMarkerAlt className="text-[#06b6d4] text-2xl" />
+              <FaMapMarkerAlt className="text-white text-2xl" />
               <span>Pune, Maharashtra</span>
             </div>
           </div>
