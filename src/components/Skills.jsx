@@ -7,39 +7,48 @@ const skillsData = {
         { name: "Java", icon: "src/assets/skills/java.svg" },
         { name: "JavaScript", icon: "src/assets/skills/javascript.svg" },
     ],
-    frameworks: [
+    frontend: [
         { name: "React JS", icon: "src/assets/skills/react.svg" },
-        { name: "Tailwind CSS", icon: "../assets/skills/tailwind.svg" },
-        { name: "Node.js", icon: "../assets/skills/node.svg" },
-        { name: "Express.js", icon: "/assets/skills/express.png" },
-        { name: "Spring Core", icon: "/assets/skills/spring.png" },
-        { name: "Supabase", icon: "/assets/skills/supabase.png" },
-        { name: "JSP Servlet", icon: "/assets/skills/jsp.png" },
+        { name: "Tailwind CSS", icon: "src/assets/skills/tailwindcss.svg" },
+        {name:"Bootstrap", icon:"src/assets/skills/bootstrap.svg"},
+        { name: "HTML5", icon: "src/assets/skills/html5.svg" },
+        { name: "CSS3", icon: "src/assets/skills/css3.svg" },
     ],
+
+    backend: [
+        { name: "Node.js", icon: "src/assets/skills/nodejs.svg" },
+        { name: "Express.js", icon: "src/assets/skills/express.svg" },
+        { name: "Spring Core", icon: "src/assets/skills/spring.svg" },
+        { name: "Hibernate", icon: "src/assets/skills/hibernate.svg" },
+    ],
+   
     databases: [
-        { name: "MongoDB", icon: "/assets/skills/mongodb.png" },
-        { name: "MySQL", icon: "/assets/skills/mysql.png" },
+        { name: "MongoDB", icon: "src/assets/skills/mongodb.svg" },
+        { name: "Supabase", icon: "src/assets/skills/supabase.svg" },
+        { name: "MySQL", icon: "src/assets/skills/mysql.svg" },
     ],
+
     tools: [
-        { name: "Git", icon: "/assets/skills/git.png" },
-        { name: "GitHub", icon: "/assets/skills/github.png" },
-        { name: "VS Code", icon: "/assets/skills/vscode.png" },
-        { name: "Postman", icon: "/assets/skills/postman.png" },
-        { name: "Docker", icon: "/assets/skills/docker.png" },
-        { name: "MongoDB Atlas", icon: "/assets/skills/atlas.png" },
-        { name: "MongoDB Compass", icon: "/assets/skills/compass.png" },
+        { name: "Git", icon: "src/assets/skills/git.svg" },
+        { name: "GitHub", icon: "src/assets/skills/github.svg" },
+        { name: "VS Code", icon: "src/assets/skills/vscode.svg" },
+        { name: "Postman", icon: "src/assets/skills/postman.svg" },
+        { name: "Docker", icon: "src/assets/skills/docker.svg" },
+        { name: "MongoDB Atlas", icon: "src/assets/skills/atlas.svg" },
+        { name: "MongoDB Compass", icon: "src/assets/skills/compass.svg" },
     ],
     platforms: [
-        { name: "Firebase", icon: "/assets/skills/firebase.png" },
-        { name: "Vercel", icon: "/assets/skills/vercel.png" },
-        { name: "Render", icon: "/assets/skills/render.png" },
-        { name: "Flowise", icon: "/assets/skills/flowise.png" },
+        { name: "Firebase", icon: "src/assets/skills/firebase.svg" },
+        { name: "Vercel", icon: "src/assets/skills/vercel.svg" },
+        { name: "Render", icon: "src/assets/skills/render.svg" },
+        { name: "Flowise", icon: "src/assets/skills/flowise.svg" },
     ]
 };
 
 const categories = [
     { id: "programming", label: "Programming", icon: <FaCode /> },
-    { id: "frameworks", label: "Frameworks", icon: <FaServer /> },
+    { id: "frontend", label: "Frontend", icon: <FaServer /> },
+    {id:"backend", label:"Backend", icon:<FaServer />},
     { id: "databases", label: "Databases", icon: <FaDatabase /> },
     { id: "tools", label: "Tools", icon: <FaTools /> },
     { id: "platforms", label: "Platforms", icon: <FaCloud /> }
