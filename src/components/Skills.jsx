@@ -4,41 +4,41 @@ import { FaCode, FaServer, FaDatabase, FaTools, FaCloud, FaLaptopCode } from "re
 
 const skillsData = {
   programming: [
-    { name: "Java", icon: "src/assets/skills/java.svg" },
-    { name: "JavaScript", icon: "src/assets/skills/javascript.svg" },
+    { name: "Java", icon: "skills/java.svg" },
+    { name: "JavaScript", icon: "skills/javascript.svg" },
   ],
   frontend: [
-    { name: "React JS", icon: "src/assets/skills/react.svg" },
-    { name: "Tailwind CSS", icon: "src/assets/skills/tailwindcss.svg" },
-    { name: "Bootstrap", icon: "src/assets/skills/bootstrap.svg" },
-    { name: "HTML5", icon: "src/assets/skills/html5.svg" },
-    { name: "CSS3", icon: "src/assets/skills/css3.svg" },
+    { name: "React JS", icon: "skills/react.svg" },
+    { name: "Tailwind CSS", icon: "skills/tailwindcss.svg" },
+    { name: "Bootstrap", icon: "skills/bootstrap.svg" },
+    { name: "HTML5", icon: "skills/html5.svg" },
+    { name: "CSS3", icon: "skills/css3.svg" },
   ],
   backend: [
-    { name: "Node.js", icon: "src/assets/skills/nodejs.svg" },
-    { name: "Express.js", icon: "src/assets/skills/express.svg" },
-    { name: "Spring Core", icon: "src/assets/skills/spring.svg" },
-    { name: "Hibernate", icon: "src/assets/skills/hibernate.svg" },
+    { name: "Node.js", icon: "skills/nodejs.svg" },
+    { name: "Express.js", icon: "skills/express.svg" },
+    { name: "Spring Core", icon: "skills/spring.svg" },
+    { name: "Hibernate", icon: "skills/hibernate.svg" },
   ],
   databases: [
-    { name: "MongoDB", icon: "src/assets/skills/mongodb.svg" },
-    { name: "Supabase", icon: "src/assets/skills/supabase.svg" },
-    { name: "MySQL", icon: "src/assets/skills/mysql.svg" },
+    { name: "MongoDB", icon: "skills/mongodb.svg" },
+    { name: "Supabase", icon: "skills/supabase.svg" },
+    { name: "MySQL", icon: "skills/mysql.svg" },
   ],
   tools: [
-    { name: "Git", icon: "src/assets/skills/git.svg" },
-    { name: "GitHub", icon: "src/assets/skills/github.svg" },
-    { name: "VS Code", icon: "src/assets/skills/vscode.svg" },
-    { name: "Postman", icon: "src/assets/skills/postman.svg" },
-    { name: "Docker", icon: "src/assets/skills/docker.svg" },
-    { name: "MongoDB Atlas", icon: "src/assets/skills/mongodb-atlas.svg" },
-    { name: "MongoDB Compass", icon: "src/assets/skills/mongodb-atlas.svg" },
+    { name: "Git", icon: "skills/git.svg" },
+    { name: "GitHub", icon: "skills/github.svg" },
+    { name: "VS Code", icon: "skills/vscode.svg" },
+    { name: "Postman", icon: "skills/postman.svg" },
+    { name: "Docker", icon: "skills/docker.svg" },
+    { name: "MongoDB Atlas", icon: "skills/mongodb-atlas.svg" },
+    { name: "MongoDB Compass", icon: "skills/mongodb-atlas.svg" },
   ],
   platforms: [
-    { name: "Firebase", icon: "src/assets/skills/firebase.svg" },
-    { name: "Vercel", icon: "src/assets/skills/vercel.svg" },
-    { name: "Render", icon: "src/assets/skills/render.jpg" },
-    { name: "Flowise", icon: "src/assets/skills/flowise.jpg" },
+    { name: "Firebase", icon: "skills/firebase.svg" },
+    { name: "Vercel", icon: "skills/vercel.svg" },
+    { name: "Render", icon: "skills/render.jpg" },
+    { name: "Flowise", icon: "skills/flowise.jpg" },
   ],
 };
 
@@ -60,7 +60,6 @@ const Skills = () => {
         Technical Skills
       </h2>
 
-      {/* Category Tabs */}
       <div className="flex flex-wrap justify-center gap-4 mb-10">
         {categories.map((cat) => (
           <motion.button
@@ -79,7 +78,6 @@ const Skills = () => {
         ))}
       </div>
 
-      {/* Skills Display */}
       <div className="bg-[#0d0d15]/60 border border-white/10 rounded-2xl p-10 max-w-6xl mx-auto shadow-lg">
         <AnimatePresence mode="wait">
           <motion.div
