@@ -5,8 +5,8 @@ const projects = [
   {
     title: "GuildMasters Website",
     description:"A community-centric gaming website providing events, insights, and game discovery. Includes secure SignUp/Login using Node.js, Express.js, and MongoDB Atlas, deployed on Firebase and Render.",
-    stack: ["React", "Node.js", "Firebase", "Express", "MongoDB"],
-    img: "/assets/projects/chatbot.png",
+    stack: ["React", "Node.js", "Firebase", "Express", "JWT", "MongoDB"],
+    img: "/skills/GuildMasters.JPG",
     live: "https://gaming-hub-98328.web.app",
     github: "https://github.com/nikamaish/GuildMasters",
   },
@@ -15,15 +15,15 @@ const projects = [
     description:
       "A modern animated portfolio using React, Tailwind CSS, Framer Motion, and Swiper components.",
     stack: ["React", "Tailwind", "Framer Motion","Swiper","Vercel"],
-    img: "/assets/projects/portfolio.png",
+    img: "/skills/Portfolio.JPG",
     live: "https://aishwarya-nikam-portfolio.vercel.app",
     github: "https://github.com/nikamaish/AishNik_Portfolio",
   },
   {
     title: "VisualMaster Website",
     description:"A real-time stock and crypto market visualization platform designed for beginners. Features interactive graphs, Vercel deployment, and MongoDB Atlas for secure user data management.",
-    stack: ["React", "Node.js","Express", "MongoDB", "Chart.js", "API", "Vercel"],
-    img: "/assets/projects/api.png",
+    stack: ["React", "Node.js","Express", "MongoDB", "Chart.js", "JWT", "API", "Vercel"],
+    img: "/skills/VisualMaster.JPG",
     live: "https://visual-master.vercel.app",
     github: "https://github.com/nikamaish/visual_master",
   },
@@ -41,7 +41,7 @@ const projects = [
     title: "BeatFarm Music Platform",
     description:"A full-featured music streaming platform where users can listen to songs, purchase beats, and explore artists. The platform supports three roles: User, Admin, and Artist. Admins can add artists, upload tracks, manage requests, and control subscription plans. The project follows MVC Architecture and is built with Node.js, Express, React, Tailwind CSS, MongoDB, and JWT authentication for a secure and scalable system.",
     stack:["React.js", "Tailwind CSS","Node.js", "Express.js", "MongoDB", "JWT", "MVC Architecture"],
-    img:"/assets/projects/todo.png",
+    img:"/skills/Beatfarm.JPG",
     live:null,
     github:"https://github.com/nikamaish/beatFarm",
   },
@@ -50,7 +50,7 @@ const projects = [
     title:  "Quiz Web App",
     description:"A secure online quiz platform with MediasTream-based camera and microphone monitoring. Includes timed quizzes, warning alerts, and continuous proctoring for exam integrity." ,
     stack:["Javascript","DOM Manipulation","HTML","CSS","GitHub Pages","Media"],
-    img:"/assets/projects/quiz.png",
+    img:"/skills/QuizApp.png",
     live:"https://nikamaish.github.io/Quiz_App",
     github:"https://github.com/nikamaish/Quiz_App"
   },
@@ -59,7 +59,7 @@ const projects = [
     title:  "WebCraft Editor",
     description:"An interactive coding playground to create shapes and solve coding challenges. Designed for learners and developers with real-time feedback in a fun, practical environment.",
     stack:["Javascript", "DOM Manipulation","HTML","CSS","GitHub Pages"],
-    img:"/assets/projects/quiz.png",
+    img:"/skills/WebCraftEditor.png",
     live:"https://nikamaish.github.io/HTML_CSS_Editor",
     github:"https://github.com/nikamaish/HTML_CSS_Editor"
   },
@@ -68,7 +68,7 @@ const projects = [
     title:  "E-Signature Studio",
     description:"A digital signature generator built using Canvas. Allows users to draw, customize, and download their signatures easily for professional use.",
     stack:["Javascript", "DOM Manipulation","HTML","CSS","Canvas","GitHub Pages"],
-    img:"/assets/projects/todo.png",
+    img:"/skills/Signature.png",
     live:"https://nikamaish.github.io/Signature_App",
     github:"https://github.com/nikamaish/Signature_App"
   }
