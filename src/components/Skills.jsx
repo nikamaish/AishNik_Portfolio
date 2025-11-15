@@ -37,8 +37,8 @@ const skillsData = {
   platforms: [
     { name: "Firebase", icon: "skills/firebase.svg" },
     { name: "Vercel", icon: "skills/vercel.svg" },
-    { name: "Render", icon: "public/skills/render.jpg" },
-    { name: "Flowise", icon: "public/skills/flowise.jpg" },
+    { name: "Render", icon: "skills/render.jpg" },
+    { name: "Flowise", icon: "skills/flowise.jpg" },
   ],
 };
 

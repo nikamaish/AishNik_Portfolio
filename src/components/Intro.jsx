@@ -39,7 +39,7 @@ const Intro = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.8, duration: 1 }}
-                className="flex space-x-10 text-4xl "
+                className="flex space-x-10 text-3xl "
             >
 
                 <a
