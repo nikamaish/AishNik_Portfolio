@@ -28,6 +28,33 @@ const projects = [
     github: "https://github.com/nikamaish/visual_master",
   },
 
+  {
+    title:  "Quiz Web App",
+    description:"A secure online quiz platform with MediasTream-based camera and microphone monitoring. Includes timed quizzes, warning alerts, and continuous proctoring for exam integrity." ,
+    stack:["Javascript","DOM Manipulation","HTML","CSS","GitHub Pages","Media"],
+    img:"/assets/projects/quiz.png",
+    live:"https://nikamaish.github.io/Quiz_App",
+    github:"https://github.com/nikamaish/Quiz_App"
+  },
+  
+  {
+    title:  "WebCraft Editor",
+    description:"An interactive coding playground to create shapes and solve coding challenges. Designed for learners and developers with real-time feedback in a fun, practical environment.",
+    stack:["Javascript", "DOM Manipulation","HTML","CSS","GitHub Pages"],
+    img:"/assets/projects/quiz.png",
+    live:"https://nikamaish.github.io/HTML_CSS_Editor",
+    github:"https://github.com/nikamaish/HTML_CSS_Editor"
+  },
+
+  {
+    title:  "E-Signature Studio",
+    description:"A digital signature generator built using Canvas. Allows users to draw, customize, and download their signatures easily for professional use.",
+    stack:["Javascript", "DOM Manipulation","HTML","CSS","Canvas","GitHub Pages"],
+    img:"/assets/projects/todo.png",
+    live:"https://nikamaish.github.io/Signature_App",
+    github:"https://github.com/nikamaish/Signature_App"
+  }
+
 ];
 
  const Projects = () => {
