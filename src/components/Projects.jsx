@@ -1,0 +1,79 @@
+import { motion } from "framer-motion";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+
+const projects = [
+  {
+    title: "GuildMasters Website",
+    description:"A community-centric gaming website providing events, insights, and game discovery. Includes secure SignUp/Login using Node.js, Express.js, and MongoDB Atlas, deployed on Firebase and Render.",
+    stack: ["React", "Node.js", "Firebase", "Express", "MongoDB"],
+    img: "/assets/projects/chatbot.png",
+    live: "https://gaming-hub-98328.web.app",
+    github: "https://github.com/nikamaish/GuildMasters",
+  },
+  {
+    title: "Portfolio Website",
+    description:
+      "A modern animated portfolio using React, Tailwind CSS, Framer Motion, and Swiper components.",
+    stack: ["React", "Tailwind", "Framer Motion","Swiper","Vercel"],
+    img: "/assets/projects/portfolio.png",
+    live: "https://aishwarya-nikam-portfolio.vercel.app",
+    github: "https://github.com/nikamaish/AishNik_Portfolio",
+  },
+  {
+    title: "VisualMaster Website",
+    description:"A real-time stock and crypto market visualization platform designed for beginners. Features interactive graphs, Vercel deployment, and MongoDB Atlas for secure user data management.",
+    stack: ["React", "Node.js","Express", "MongoDB", "Chart.js", "API", "Vercel"],
+    img: "/assets/projects/api.png",
+    live: "https://visual-master.vercel.app",
+    github: "https://github.com/nikamaish/visual_master",
+  },
+
+];
+
+ const Projects = () => {
+  return (
+    <section id="projects" className="min-h-screen bg-[#0d0d15]/70 text-white py-20 px-6">
+      <h2 className="text-5xl font-bold text-center mb-12 bg-gradient-to-r from-[#9333ea] to-[#06b6d4] bg-clip-text text-transparent">Projects</h2>
+
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {projects.map((project, index) => (
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: index * 0.15 }}
+            className="bg-gradient-to-br from-[#0f172a] to-[#1e293b] border border-white/10 rounded-2xl p-5 shadow-lg hover:shadow-[0_0_25px_rgba(147,51,234,0.4)] transition"
+          >
+            <div className="w-full h-48 rounded-xl overflow-hidden mb-4">
+              <img src={project.img} className="w-full h-full object-cover" />
+            </div>
+
+            <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+            <p className="text-gray-400 text-sm mb-3">{project.description}</p>
+
+            <div className="flex flex-wrap gap-2 mb-4">
+              {project.stack.map((tech, i) => (
+                <span key={i} className="text-xs bg-white/10 px-3 py-1 rounded-full border border-white/10">
+                  {tech}
+                </span>
+              ))}
+            </div>
+
+            <div className="flex justify-between items-center mt-auto">
+              <a href={project.github} target="_blank" className="flex items-center gap-2 text-gray-300 hover:text-white">
+                <FaGithub /> Code
+              </a>
+              <a href={project.live} target="_blank" className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300">
+                Live <FaExternalLinkAlt />
+              </a>
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+
+export default Projects;

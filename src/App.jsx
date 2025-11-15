@@ -6,6 +6,7 @@ import Certifications from "./components/Certifications";
 import GitHubStats from "./components/GitHubStats";
 import Experience from "./components/Experience";
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <AboutMe/>
       <Skills/>
       <Experience/>
+      <Projects/>
       <Certifications/>
       <GitHubStats/>
       <Contact/>
