@@ -26,14 +26,15 @@ const Intro = () => {
             </motion.h2>
 
             <motion.a
-                href="/Aishwarya_Nikam_Resume.pdf"
-                download
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                className="glow-btn inline-block mb-10"
-            >
-                Download Resume
-            </motion.a>
+  href="/Aishwarya_Nikam_Resume.pdf"
+  download
+  whileHover={{ scale: 1.1 }}
+  whileTap={{ scale: 0.95 }}
+  className="glow-btn inline-block mb-10 px-10 py-5 text-xl font-bold"
+>
+  Download Resume
+</motion.a>
+
 
             <motion.div
                 initial={{ opacity: 0 }}
