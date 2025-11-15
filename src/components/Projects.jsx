@@ -28,6 +28,24 @@ const projects = [
     github: "https://github.com/nikamaish/visual_master",
   },
 
+   {
+    title: "Social Networking API",
+    description:"A high-performance backend API built using Node.js, Express, and MongoDB, designed for social communication and user interaction. It supports features like user profiles, authentication, posts, reactions, and scalable data modeling. The API focuses on security, clean architecture, and optimized database operations, making it ideal for building social media platforms or community-driven applications",
+    stack: ["Node.js", "Express", "MongoDB", "RESTful API", "JWT", "Mongoose"],
+    img: "/assets/projects/api.png",
+    live: null,
+    github: "https://github.com/nikamaish/SocialNetworkingApi-",
+  },
+
+  {
+    title: "BeatFarm Music Platform",
+    description:"A full-featured music streaming platform where users can listen to songs, purchase beats, and explore artists. The platform supports three roles: User, Admin, and Artist. Admins can add artists, upload tracks, manage requests, and control subscription plans. The project follows MVC Architecture and is built with Node.js, Express, React, Tailwind CSS, MongoDB, and JWT authentication for a secure and scalable system.",
+    stack:["React.js", "Tailwind CSS","Node.js", "Express.js", "MongoDB", "JWT", "MVC Architecture"],
+    img:"/assets/projects/todo.png",
+    live:null,
+    github:"https://github.com/nikamaish/beatFarm",
+  },
+
   {
     title:  "Quiz Web App",
     description:"A secure online quiz platform with MediasTream-based camera and microphone monitoring. Includes timed quizzes, warning alerts, and continuous proctoring for exam integrity." ,
@@ -91,9 +109,11 @@ const projects = [
               <a href={project.github} target="_blank" className="flex items-center gap-2 text-gray-300 hover:text-white">
                 <FaGithub /> Code
               </a>
+              {project.live && (
               <a href={project.live} target="_blank" className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300">
                 Live <FaExternalLinkAlt />
               </a>
+              )}
             </div>
           </motion.div>
         ))}
