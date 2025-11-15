@@ -39,7 +39,7 @@ const projects = [
 
   {
     title: "BeatFarm Music Platform",
-    description:"A full-featured music streaming platform where users can listen to songs, purchase beats, and explore artists. The platform supports three roles: User, Admin, and Artist. Admins can add artists, upload tracks, manage requests, and control subscription plans. The project follows MVC Architecture and is built with Node.js, Express, React, Tailwind CSS, MongoDB, and JWT authentication for a secure and scalable system.",
+    description:"A music streaming platform where users can listen to songs, purchase beats, and explore artists. The platform supports three roles: User, Admin, and Artist. Admins can add artists, upload tracks, manage requests, and control subscription plans. The project follows MVC Architecture and is built with Node.js, Express, React, Tailwind CSS, MongoDB, and JWT authentication for a secure and scalable system.",
     stack:["React.js", "Tailwind CSS","Node.js", "Express.js", "MongoDB", "JWT", "MVC Architecture"],
     img:"/skills/Beatfarm.JPG",
     live:null,
@@ -88,7 +88,9 @@ const projects = [
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: index * 0.15 }}
-            className="bg-gradient-to-br from-[#0f172a] to-[#1e293b] border border-white/10 rounded-2xl p-5 shadow-lg hover:shadow-[0_0_25px_rgba(147,51,234,0.4)] transition"
+            className="bg-gradient-to-br from-[#0f172a] to-[#1e293b] border border-white/10 rounded-2xl p-5 shadow-lg 
+           hover:shadow-[0_0_25px_rgba(147,51,234,0.4)] transition 
+           flex flex-col h-full justify-between"
           >
             <div className="w-full h-48 rounded-xl overflow-hidden mb-4">
               <img src={project.img} className="w-full h-full object-cover" />

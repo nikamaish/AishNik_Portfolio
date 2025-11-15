@@ -26,7 +26,7 @@ const Intro = () => {
             </motion.h2>
 
             <motion.a
-                href="/resume.pdf"
+                href="/Aishwarya_Nikam_Resume.pdf"
                 download
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
