@@ -21,7 +21,7 @@ const Contact = () => {
     setStatus("Sending...");
 
     try {
-      const res = await fetch("http://localhost:5000/api/contact/submit", {
+      const res = await fetch("https://aish-nik-portfolio-backend.vercel.app/api/contact/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
