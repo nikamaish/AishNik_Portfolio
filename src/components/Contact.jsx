@@ -1,7 +1,43 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt } from "react-icons/fa";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const [status, setStatus] = useState("");
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
+
+    try {
+      const res = await fetch("http://localhost:5000/api/contact/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        setStatus("Message Sent Successfully ");
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        setStatus("Something went wrong ");
+      }
+    } catch (error) {
+      setStatus("Server Error");
+    }
+  };
+
   return (
     <section
       id="contact"
@@ -23,17 +59,15 @@ const Contact = () => {
         className="bg-[#11111a] p-10 rounded-2xl shadow-[0_0_30px_#06b6d4] max-w-3xl w-full"
       >
         <p className="text-gray-300 text-lg mb-8 text-center">
-          I’m always open to discussing new projects, ideas, or opportunities.  
+          I’m always open to discussing new projects, ideas, or opportunities.
           Drop me a message — I’ll get back to you soon! 
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 text-gray-300">
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <FaEnvelope className="text-white text-2xl " />
-              <a
-                href="mailto:aishwaryanikam13@gmail.com"
-              >
+              <FaEnvelope className="text-white text-2xl" />
+              <a href="mailto:aishwaryanikam13@gmail.com">
                 aishwarya.nikam.work@gmail.com
               </a>
             </div>
@@ -66,30 +100,34 @@ const Contact = () => {
             </div>
           </div>
 
-          <form
-            action="https://formspree.io/f/mvgppgbb"
-            method="POST"
-            className="space-y-4"
-          >
+          <form onSubmit={handleSubmit} className="space-y-4">
             <input
               type="text"
               name="name"
               placeholder="Your Name"
               required
+              value={formData.name}
+              onChange={handleChange}
               className="w-full bg-[#0f0f15] border border-[#1e1e2a] text-white p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#06b6d4]"
             />
+
             <input
               type="email"
               name="email"
               placeholder="Your Email"
               required
+              value={formData.email}
+              onChange={handleChange}
               className="w-full bg-[#0f0f15] border border-[#1e1e2a] text-white p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#06b6d4]"
             />
+
             <textarea
               name="message"
               rows="4"
               placeholder="Your Message..."
               required
+              value={formData.message}
+              onChange={handleChange}
               className="w-full bg-[#0f0f15] border border-[#1e1e2a] text-white p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#06b6d4]"
             ></textarea>
 
@@ -101,6 +139,10 @@ const Contact = () => {
             >
               Send Message
             </motion.button>
+
+            {status && (
+              <p className="text-center mt-2 text-cyan-300">{status}</p>
+            )}
           </form>
         </div>
       </motion.div>
