@@ -20,7 +20,7 @@ const Intro = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.2 }}
-                className="text-3xl md:text-4xl text-gray-300 mb-10"
+                className="text-2xl md:text-4xl text-gray-300 mb-10"
             >
                 Full Stack Developer
             </motion.h2>

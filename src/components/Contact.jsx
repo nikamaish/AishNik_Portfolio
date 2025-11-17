@@ -49,7 +49,7 @@ const Contact = () => {
         transition={{ duration: 0.8 }}
         className="text-5xl md:text-6xl font-bold mb-12 bg-gradient-to-r from-[#9333ea] to-[#06b6d4] bg-clip-text text-transparent"
       >
-        Let’s Connect ✨
+        Let’s Connect 
       </motion.h2>
 
       <motion.div

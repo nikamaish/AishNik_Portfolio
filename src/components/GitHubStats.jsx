@@ -12,7 +12,7 @@ const GitHubStats = () => {
                 transition={{ duration: 1 }}
                 className="text-5xl font-bold mb-10 bg-gradient-to-r from-[#9333ea] to-[#06b6d4] bg-clip-text text-transparent"
             >
-                My GitHub Stats 🚀
+                My GitHub Stats 
             </motion.h2>
 
             {/* wrapper that places children side-by-side on md+ and stacked on small screens */}
