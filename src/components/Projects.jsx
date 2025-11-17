@@ -32,7 +32,7 @@ const projects = [
     title: "Social Networking API",
     description:"A high-performance backend API built using Node.js, Express, and MongoDB, designed for social communication and user interaction. It supports features like user profiles, authentication, posts, reactions, and scalable data modeling. The API focuses on security, clean architecture, and optimized database operations, making it ideal for building social media platforms or community-driven applications",
     stack: ["Node.js", "Express", "MongoDB", "RESTful API", "JWT", "Mongoose"],
-    img: "/assets/projects/api.png",
+    img: "/skills/API.png",
     live: null,
     github: "https://github.com/nikamaish/SocialNetworkingApi-",
   },
