@@ -45,3 +45,19 @@
 .read-the-docs {
   color: #888;
 }
+
+
+@media (max-width: 640px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    --swiper-navigation-size: 22px !important; /* Reduce arrow size */
+  }
+
+  .swiper-button-next {
+    right: 5px !important; /* Bring arrow closer inside */
+  }
+
+  .swiper-button-prev {
+    left: 5px !important; /* Bring arrow closer inside */
+  }
+}
