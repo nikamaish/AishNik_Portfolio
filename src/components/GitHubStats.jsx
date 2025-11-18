@@ -4,7 +4,7 @@ const GitHubStats = () => {
     return (
         <section
             id="github"
-            className="min-h-[60vh] flex flex-col items-center justify-center text-center bg-[#0d0d15]/70 py-20 px-6"
+            className="flex flex-col items-center justify-center text-center bg-[#0d0d15]/70 px-10 py-20"
         >
             <motion.h2
                 initial={{ opacity: 0, y: -30 }}
@@ -15,7 +15,6 @@ const GitHubStats = () => {
                 My GitHub Stats 
             </motion.h2>
 
-            {/* wrapper that places children side-by-side on md+ and stacked on small screens */}
             <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
@@ -23,7 +22,6 @@ const GitHubStats = () => {
                 transition={{ duration: 1 }}
                 className="flex flex-col md:flex-row items-center justify-center gap-8 w-full"
             >
-                {/* languages card (first) */}
                 <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -38,7 +36,6 @@ const GitHubStats = () => {
                     />
                 </motion.div>
 
-                {/* streak card (second) */}
                 <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     whileInView={{ opacity: 1, y: 0 }}

@@ -33,7 +33,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="min-h-screen bg-[#0d0d15]/70 text-white px-8 py-20 flex flex-col items-center"
+      className=" bg-[#0d0d15]/70 text-white px-10 py-10 flex flex-col items-center"
     >
       <h2 className="text-5xl font-bold mb-16 bg-gradient-to-r from-[#9333ea] to-[#06b6d4] bg-clip-text text-transparent">
         Experience

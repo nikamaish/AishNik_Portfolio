@@ -5,7 +5,7 @@ const AboutMe = () => {
     return (
         <section
             id="about"
-            className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-20 px-10 pt-10 pb-20 bg-[#0d0d15]/70 "
+            className=" flex flex-col md:flex-row items-center justify-center gap-20 px-10 py-10 bg-[#0d0d15]/70 "
         >
             <motion.div
                 initial={{ opacity: 0, x: -80 }}

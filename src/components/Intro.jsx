@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 
 const Intro = () => {
     return (
-        <section id="home" className="min-h-screen flex flex-col justify-center items-center pb-10">
+        <section id="home" className="flex flex-col justify-center items-center md:pt-20 pb-20">
             <motion.h1
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
