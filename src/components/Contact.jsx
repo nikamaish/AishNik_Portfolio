@@ -41,26 +41,26 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className=" flex flex-col items-center justify-center px-6 py-20 bg-[#0d0d15]/70"
+      className="flex flex-col items-center justify-center px-4 py-16 sm:px-6 sm:py-20 bg-[#0d0d15]/70"
     >
       <motion.h2
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="text-5xl md:text-6xl font-bold mb-12 bg-gradient-to-r from-[#9333ea] to-[#06b6d4] bg-clip-text text-transparent"
+        className="text-4xl sm:text-5xl md:text-6xl font-bold mb-10 sm:mb-12 bg-gradient-to-r from-[#9333ea] to-[#06b6d4] bg-clip-text text-transparent"
       >
-        Let’s Connect 
+        Let’s Connect
       </motion.h2>
 
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="bg-[#11111a] p-10 rounded-2xl shadow-[0_0_30px_#06b6d4] max-w-3xl w-full"
+        className="bg-[#11111a] p-6 sm:p-10 rounded-2xl shadow-[0_0_30px_#06b6d4] max-w-3xl w-full"
       >
         <p className="text-gray-300 text-lg mb-8 text-center">
           I’m always open to discussing new projects, ideas, or opportunities.
-          Drop me a message — I’ll get back to you soon! 
+          Drop me a message — I’ll get back to you soon!
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 text-gray-300">
@@ -108,7 +108,7 @@ const Contact = () => {
               required
               value={formData.name}
               onChange={handleChange}
-              className="w-full bg-[#0f0f15] border border-[#1e1e2a] text-white p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#06b6d4]"
+              className="w-full bg-[#0f0f15] border border-[#1e1e2a] text-white p-2 sm:p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#06b6d4]"
             />
 
             <input
@@ -128,7 +128,7 @@ const Contact = () => {
               required
               value={formData.message}
               onChange={handleChange}
-              className="w-full bg-[#0f0f15] border border-[#1e1e2a] text-white p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#06b6d4]"
+              className="w-full bg-[#0f0f15] border border-[#1e1e2a] text-white p-2 sm:p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#06b6d4]"
             ></textarea>
 
             <motion.button
