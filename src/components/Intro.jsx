@@ -3,17 +3,18 @@ import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 
 const Intro = () => {
     return (
-        <section id="home" className="flex flex-col justify-center items-center md:pt-20 pb-20">
+        <section id="home" className="flex flex-col justify-center items-center py-20">
             <motion.h1
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-                className="text-5xl sm:text-4xl md:text-6xl lg:text-7xl font-bold 
-             mt-32 mb-10 
-             text-center md:text-left 
-             px-4 sm:px-6">
-                Hi, I’m{" "}
-                <span className="animated-name">Aishwarya Nikam</span>
+                className="
+          mt-32 mb-10 text-center font-bold
+          text-5xl sm:text-6xl md:text-6xl lg:text-7xl
+          px-4
+        "
+            >
+                Hi, I’m <span className="animated-name">Aishwarya Nikam</span>
             </motion.h1>
 
             <motion.h2
@@ -26,14 +27,14 @@ const Intro = () => {
             </motion.h2>
 
             <motion.a
-  href="/Aishwarya_Nikam_Resume.pdf"
-  download
-  whileHover={{ scale: 1.1 }}
-  whileTap={{ scale: 0.95 }}
-  className="glow-btn inline-block mb-10 px-10 py-5 text-xl font-bold"
->
-  Download Resume
-</motion.a>
+                href="/Aishwarya_Nikam_Resume.pdf"
+                download
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                className="glow-btn inline-block mb-10 px-10 py-5 text-xl font-bold"
+            >
+                Download Resume
+            </motion.a>
 
 
             <motion.div

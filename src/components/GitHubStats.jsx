@@ -10,7 +10,7 @@ const GitHubStats = () => {
                 initial={{ opacity: 0, y: -30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-                className="text-5xl font-bold mb-10 bg-gradient-to-r from-[#9333ea] to-[#06b6d4] bg-clip-text text-transparent"
+                className="text-4xl sm:text-5xl font-bold mb-10 bg-gradient-to-r from-[#9333ea] to-[#06b6d4] bg-clip-text text-transparent"
             >
                 My GitHub Stats 
             </motion.h2>

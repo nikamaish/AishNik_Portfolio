@@ -67,7 +67,7 @@ const Contact = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-3 text-sm sm:text-base">
               {/* here text-sm is for small devices which comes under 640px and sm:text-base is for devices above 640px, it overrides text-sm */}
-              <FaEnvelope className="text-white text-2xl" />
+              <FaEnvelope className="text-white text-2xl " />
               <a href="mailto:aishwaryanikam13@gmail.com">
                 aishwarya.nikam.work@gmail.com
               </a>

@@ -27,7 +27,7 @@ const AboutMe = () => {
                 transition={{ duration: 1 }}
                 className="max-w-2xl text-center md:text-left leading-relaxed"
             >
-                <h2 className="text-5xl font-bold mb-6 bg-gradient-to-l from-[#9333ea] to-[#06b6d4] bg-clip-text text-transparent">
+                <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-l from-[#9333ea] to-[#06b6d4] bg-clip-text text-transparent">
                     About Me
                 </h2>
 
