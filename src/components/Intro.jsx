@@ -8,7 +8,7 @@ const Intro = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-                className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold 
+                className="text-5xl sm:text-4xl md:text-6xl lg:text-7xl font-bold 
              mt-32 mb-10 
              text-center md:text-left 
              px-4 sm:px-6">
