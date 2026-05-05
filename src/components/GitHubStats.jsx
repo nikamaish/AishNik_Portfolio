@@ -27,12 +27,10 @@ const GitHubStats = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.1, duration: 0.8 }}
-                    className="w-[340px] md:w-[500px] rounded-xl  shadow-[0_0_25px_#06b6d4]"
+                    className="w-[340px] md:w-[350px] rounded-xl  shadow-[0_0_25px_#06b6d4]"
                 >
-                    <img
-                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikamaish&layout=compact&theme=radical&title_color=06b6d4&text_color=ffffff&bg_color=0a0a0f"
-                        alt="Top Languages"
-                        className="w-full h-auto block"
+                     <img align="left" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=nikamaish&layout=compact&theme=dark" alt="nikamaish"
+                      className="w-full h-auto block"
                     />
                 </motion.div>
 
@@ -41,7 +39,7 @@ const GitHubStats = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.2, duration: 0.8 }}
-                    className="w-[340px] md:w-[400px] rounded-xl  shadow-[0_0_25px_#9333ea]"
+                    className="w-[340px] md:w-[510px] rounded-xl  shadow-[0_0_25px_#9333ea]"
                 >
                     <img
                         src="https://streak-stats.demolab.com?user=nikamaish&theme=radical&ring=9333ea&fire=06b6d4&currStreakLabel=ffffff&background=0a0a0f"
