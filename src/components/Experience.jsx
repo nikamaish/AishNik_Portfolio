@@ -7,11 +7,11 @@ const experiences = [
     role: "Associate Software Engineer",
     duration: "Dec 2024 – Present",
     description: [
-      "Undergone through training in Web Development and Java Stack",
-      "Acquired knowledge of Agile methodologies and software testing principles to deliver high-quality software.",
-      "Leveraged cloud computing concepts through Google Cloud Platform (GCP)"
+      "Undergone training in Web Development with exposure to Agile methodologies, software testing principles, and cloud concepts using Google Cloud Platform (GCP)",
+      "Developed responsive and user-friendly UI/UX using React.js, leveraging libraries like PrimeReact and implemented form validations using Yup and React Hook Form",
+      "Implemented frontend-level role-based access control, handled API integration, and managed user interactions with proper validations"
     ],
-    technologies: ["Javascript", "Core Java", "Advance Java", "Servlet", "Spring Core", "Spring JDBC", "Spring JPA", "Spring MVC", "Spring Boot", "Agile Methodologies","MySQL", "Google Cloud Platform (GCP)"],
+    technologies: ["Javascript", "React.js", "PrimeReact", "Yup", "Git", "GitHub", "Agile Methodologies", "Google Cloud Platform (GCP)"],
   },
   {
     company: "Techonsy Software Pvt. Ltd.",

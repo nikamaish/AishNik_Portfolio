@@ -10,6 +10,7 @@ const AboutMe = () => {
             <motion.div
                 initial={{ opacity: 0, x: -80 }}
                 animate={{ opacity: 1, x: 0 }}
+                whileInView={{ opacity: 1 }}
                 transition={{ duration: 1 }}
                 className="relative w-72 h-72 md:w-[400px] md:h-[400px] rounded-full overflow-hidden "
             >
@@ -24,6 +25,7 @@ const AboutMe = () => {
             <motion.div
                 initial={{ opacity: 0, x: 80 }}
                 animate={{ opacity: 1, x: 0 }}
+                whileInView={{ opacity: 1 }}
                 transition={{ duration: 1 }}
                 className="max-w-2xl text-center md:text-left leading-relaxed"
             >
