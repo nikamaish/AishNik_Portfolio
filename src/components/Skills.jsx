@@ -4,8 +4,8 @@ import { FaCode, FaServer, FaDatabase, FaTools, FaCloud, FaLaptopCode } from "re
 
 const skillsData = {
   programming: [
-    { name: "Java", icon: "skills/java.svg" },
     { name: "JavaScript", icon: "skills/javascript.svg" },
+    { name: "Java", icon: "skills/java.svg" },
   ],
   frontend: [
     { name: "React JS", icon: "skills/react.svg" },
@@ -17,8 +17,6 @@ const skillsData = {
   backend: [
     { name: "Node.js", icon: "skills/nodejs.svg" },
     { name: "Express.js", icon: "skills/express.svg" },
-    { name: "Spring Core", icon: "skills/spring.svg" },
-    { name: "Hibernate", icon: "skills/hibernate.svg" },
   ],
   databases: [
     { name: "MongoDB", icon: "skills/mongodb.svg" },
