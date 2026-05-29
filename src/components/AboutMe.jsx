@@ -37,8 +37,8 @@ const AboutMe = () => {
                     A passionate{" "}
                     <span className="text-[#06b6d4] font-semibold">Full Stack Developer</span>{" "}
                     skilled in the{" "}
-                    <span className="text-[#06b6d4] font-semibold">MERN</span> and{" "}
-                    <span className="text-[#06b6d4] font-semibold">Java</span> stacks, currently
+                    <span className="text-[#06b6d4] font-semibold">MERN</span>
+                    , currently
                     working as an{" "}
                     <span className="text-[#e63946] font-semibold">Associate Software Engineer</span>{" "}
                     at <span className="text-[#e63946] font-semibold">Tech Mahindra</span>.

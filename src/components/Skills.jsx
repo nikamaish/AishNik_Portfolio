@@ -13,6 +13,9 @@ const skillsData = {
     { name: "Bootstrap", icon: "skills/bootstrap.svg" },
     { name: "HTML5", icon: "skills/html5.svg" },
     { name: "CSS3", icon: "skills/css3.svg" },
+    {name: "Yup", icon: "skills/Yup.png"},
+    {name: "Formik", icon: "skills/Formik.jpeg"},
+    {name:"Prime React", icon:"skills/Prime_React.png"},
   ],
   backend: [
     { name: "Node.js", icon: "skills/nodejs.svg" },

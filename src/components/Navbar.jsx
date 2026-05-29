@@ -15,6 +15,7 @@ const Navbar = () => {
         { id: "contact", label: "Contact" },
     ];
 
+
     const handleScroll = (id) => {
         const section = document.getElementById(id);
         if (section) {
@@ -40,6 +41,8 @@ const Navbar = () => {
                 </motion.h1>
 
                 <ul className="hidden md:flex space-x-8 text-gray-300 font-medium">
+                   {/* hidden is used to hide the list on smaller screens */}
+
                     {navLinks.map((link) => (
                         <li
                             key={link.id}

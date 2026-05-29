@@ -8,7 +8,7 @@ const experiences = [
     duration: "Dec 2024 – Present",
     description: [
       "Undergone training in Web Development with exposure to Agile methodologies, software testing principles, and cloud concepts using Google Cloud Platform (GCP)",
-      "Developed responsive and user-friendly UI/UX using React.js, leveraging libraries like PrimeReact and implemented form validations using Yup and React Hook Form",
+      "Developed responsive and user-friendly UI using React.js, leveraging libraries like PrimeReact and implemented form validations using Yup and React Hook Form",
       "Implemented frontend-level role-based access control, handled API integration, and managed user interactions with proper validations"
     ],
     technologies: ["Javascript", "React.js", "PrimeReact", "Yup", "Git", "GitHub", "Agile Methodologies", "Google Cloud Platform (GCP)"],
